@@ -46,7 +46,7 @@ if __name__=='__main__':
                 print('\nНазвание фильма:', movie_name)
                 print('Рейтинг:', star_rating)
                 print('Описание фильма:', movie_describe)
-                print('Поиск завершён успешно.')
+                print('Поиск завершён.')
                 print()
         if choice == 1:
             rating = float(input('\nВведите рейтинг: '))
