@@ -46,8 +46,8 @@ if __name__=='__main__':
                 print('\nНазвание фильма:', movie_name)
                 print('Рейтинг:', star_rating)
                 print('Описание фильма:', movie_describe)
-                print('Поиск завершён.')
                 print()
+            print('Поиск завершён.')
         if choice == 1:
             rating = float(input('\nВведите рейтинг: '))
             waiting = print('Пожалуйста, подождите. Достаём данные с сайта imdb...')
@@ -55,5 +55,5 @@ if __name__=='__main__':
                 print('\nНазвание фильма:', movie_name)
                 print('Рейтинг:', star_rating)
                 print('Описание фильма:', movie_describe)
-                print('Поиск завершён.')
                 print()
+            print('Поиск завершён.')
